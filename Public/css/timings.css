@@ -177,6 +177,11 @@ font-size: 14.7px;
   flex-direction: row;
 }
 
+.time button {
+  border: none;
+  background-color: white;
+}
+
 .time-divs{
   border-radius: 9%;
    border: 2px solid #64646b;
