@@ -57,6 +57,14 @@ a{
   float:right;
 }
 
+.nav-links button {
+  border: none;
+  color:#c30735;
+  background-color: #1A1A1D;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
 
 /*Movie-info*/
 .movie-info{
@@ -175,6 +183,11 @@ font-size: 14.7px;
 
   display: flex;
   flex-direction: row;
+}
+
+.time button {
+  border: none;
+  background-color: white;
 }
 
 .time-divs{

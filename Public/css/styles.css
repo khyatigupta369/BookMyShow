@@ -54,6 +54,13 @@ width: 50%;
 
 }
 
+.nav-links button {
+  border: none;
+  color:#c30735;
+  background-color: #1A1A1D;
+  display: inline-block;
+  padding: 0px 20px;
+}
 
 .nav-links{
   list-style: none;
@@ -345,6 +352,11 @@ width: 50%;
   font-size: 12px;
 }
 
+.movieButton {
+  border: none;
+  background-color: white;
+}
+
 /* *******************Movie Desc **************************/
 
 .movie-Info {
@@ -464,6 +476,10 @@ width: 50%;
 .cast-info img {
   width: 150px;
   border-radius: 50%;
+}
+
+.movieGenres {
+  color: white;
 }
 
 /* *******************Seating Plan **************************/
