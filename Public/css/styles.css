@@ -466,3 +466,84 @@ width: 50%;
   border-radius: 50%;
 }
 
+/* *******************Seating Plan **************************/
+.seats {
+  margin-left: 20%;
+  align-items: center;
+}
+
+
+.seatR {
+  margin-right: 6px;
+    margin-top: 9px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.seat1 {
+  margin: 4px;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+._available {
+  border-radius: 5px;
+  padding: 2px 4px;
+  border: 1px solid #950740;
+  background-color: white;
+}
+
+.seat1 a {
+  display: inline-block;
+  font-size: 10px;
+  line-height: 25px;
+  font-weight: 400;
+  vertical-align: top;
+}
+
+
+.seat1 ._available:hover {
+  background-color: #950740;
+  color: white;
+}
+
+
+.sRow1 {
+  margin-bottom: 5px;
+}
+
+.screen {
+  width: 150px;
+}
+
+._unavailable {
+  border-radius: 5px;
+  padding: 2px 4px;
+  border: 1px solid #eeeeee;
+  background-color: #eeeeee;
+  color: grey;
+}
+
+._unavailable:hover {
+  color: grey;
+}
+
+.pay {
+  padding: 10px;
+  background-color: #950740;
+  width: 40%;
+  border-radius: 10px;
+  color: white;
+  border : none;
+  font-weight: bold;
+}
+
+.choosen {
+  border-radius: 5px;
+  padding: 2px 4px;
+  border: 1px solid #950740;
+  background-color: #950740;
+  color : white;
+}
+
