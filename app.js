@@ -23,6 +23,7 @@ app.get("/navbar", (req,res) => {
 app.get("/seating", (req, res) => res.render("seating"));
 app.get("/timings", (req, res) => res.render("timings"));
 app.get("/payment", (req, res) => res.render("payment"));
+app.get("/successful", (req, res) => res.render("successful"));
 
 
 let PORT = process.env.PORT;
