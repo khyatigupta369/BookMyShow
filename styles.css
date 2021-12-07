@@ -310,3 +310,125 @@ a{
   margin-right: 10px;
   font-size: 12px;
 }
+
+/* *******************Movie Desc **************************/
+
+.movie-Info {
+  /* background-image: url(desc_images/bg_buntyAurBabli2.jpeg); */
+  background-image: linear-gradient(90deg, rgb(34, 34, 34) 24.97%, rgb(34, 34, 34) 38.3%, rgba(34, 34, 34, 0.04) 97.47%, rgb(34, 34, 34) 100%), url("https://in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/bunty-aur-babli-2-et00127081-28-10-2021-06-51-47.jpg");
+}
+
+.poster {
+  margin-left: 5%;
+  width: 250px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
+.movie-Info h1 {
+  color: white;
+  font-weight:  bold;
+  font-size:   35px;
+  margin-bottom: 3%;
+}
+
+.information {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.information h2 {
+  color: white;
+  display: inline-block;
+  font-size:   25px;
+  font-weight:  bold;
+  margin-right: 10px;
+}
+
+.information h3 {
+  color: white;
+  font-size:   18px;
+  display: inline;
+  font-weight: 100;
+}
+
+.rateButton {
+  background-color: #515151;
+  border: none;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.ratingText {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.ratingText p {
+  color: white;
+  margin: 0;
+}
+
+.ratingText h4 {
+  text-align: left;
+  color : white;
+  font-weight: 100;
+  font-size : 15px;
+  margin: 0;
+}
+
+.rateNow {
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  font-weight: 500;
+  background-color: white;
+  display: inline-block;
+}
+
+.movieTags {
+  font-weight: 600;
+  background-color: white;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  padding: 2px 10px;
+}
+
+.information h5 {
+  display: inline;
+  font-size:   15px;
+  font-weight: 100;
+}
+
+.bookTicket {
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border : none;
+  background-color: #950740;
+  padding: 20px 50px;
+}
+
+.cast {
+  margin-left: 5%;
+}
+
+.cast-info {
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.cast-info img {
+  width: 150px;
+  border-radius: 50%;
+}
+
