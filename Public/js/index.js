@@ -23,10 +23,10 @@ $(".city-dropdown").on("click", function(event) {
   let id = event.currentTarget.id;
   if (selectedCity != id) {
     if (popular_cities.indexOf(selectedCity) != -1) {
-      $("#" + selectedCity + "-img").attr("src", "images/" + selectedCity + ".svg");
+      $("#" + selectedCity + "-img").attr("src", "img/images/" + selectedCity + ".svg");
     }
     selectedCity = id;
-    $("#" + selectedCity + "-img").attr("src", "images/" + selectedCity + "-blue.svg");
+    $("#" + selectedCity + "-img").attr("src", "img/images/" + selectedCity + "-blue.svg");
     $(".nav-link").text(selectedCity);
   }
 
@@ -70,7 +70,7 @@ $('.hide-cities').on('click', function(event) {
 $('.other-city-text').on('click', function(event) {
   flag = -1;
   if (popular_cities.indexOf(selectedCity) != -1) {
-    $("#" + selectedCity + "-img").attr("src", "images/" + selectedCity + ".svg");
+    $("#" + selectedCity + "-img").attr("src", "img/images/" + selectedCity + ".svg");
   }
 
   selectedCity = $(this).text();
